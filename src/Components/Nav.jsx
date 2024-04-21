@@ -12,6 +12,7 @@ import andazz from "../Assets/andazz.webp"
 import TextField from '@mui/material/TextField';
 import { useNavigate } from "react-router-dom";
 import { Cards } from "../Components/Cards"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -45,19 +46,17 @@ const Navbar = () => {
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">NEW ARRIVALS </a>
+            <Link className="nav-link" to="/newarrivals">NEW ARRIVALS</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SUMMER COLLECTION</a>
+            <Link className="nav-link" to="/summercollection">SUMMER COLLECTION</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT</a>
+            <Link className="nav-link" to="/newarrivals">ABOUT</Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+            <Link className="nav-link" to="/newarrivals">CONTACT</Link>
             </li>
-
-
           </ul>
           <form class="form-inline my-2 my-lg-0  ">
             <div className="d-flex align-items-center justify-content center">
@@ -269,17 +268,7 @@ const Navbar = () => {
         </div>
 
       </div>
-      <div className="row">
-        {Cards.map((card) => (
-          <div key={card.id} className="col-lg-4">
-            <img src={card.imgsrc} alt={`image ${card.id}`} />
-            {console.log("image", card.imgsrc)}
-          </div>
-        ))}
-      </div>
-
-
-
+     
     </>
 
 
