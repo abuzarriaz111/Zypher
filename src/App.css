@@ -1,49 +1,139 @@
-.nav-item .nav-link{
-  color: black;
-}
-.nav-item .nav-link:hover{
-  color: grey
-}
-.logo{
-  width: 200px;
+   body {
+     font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+   }
 
-}
-p{
-  font-weight: 100;
-  font-size: 14px;
-}
-.Aragon-section{
-  padding-top: 15px;
-}
-h6{
-  padding-right: 9px;
-  padding-top: 6px
-}
-.fa-cart-shopping:hover{
-  color: gray;
+   p{
+     font-weight: 500  !important;
+     font-size: 17px !important;
+   }
 
-}
-.aragon-pic{
+   .nav-item .nav-link {
+     color: black;
+   }
 
+   .nav-item .nav-link:hover {
+     color: grey
+   }
+
+   .logo {
+     width: 150px;
+
+   }
+
+   p {
+     font-weight: 100;
+     font-size: 14px;
+   }
+
+   .Aragon-section {
+     padding-top: 15px;
+   }
+
+   h6 {
+     padding-right: 9px;
+     padding-top: 6px
+   }
+
+   .fa-cart-shopping:hover {
+     color: gray;
+
+   }
+
+   .aragon-pic {}
+
+   .boski-pic {}
+
+   .subscription {
+     text-align: center;
+   }
+
+   .footer-section {
+     padding-top: 10px;
+     background-color: #EDEBE6;
+     margin-top: 20px;
+   }
+
+   .footer-section li {
+     list-style: none;
+     color: black;
+   }
+
+   .footer-section a {
+     color: black;
+   }
+
+   .custom-hr {
+     border: 1px solid black;
+     /* Example border style */
+   }
+
+   .card {
+     padding: 20px 30px;
+     border: snow;
+     box-shadow: 0px 0px 7px -3px rgb(0, 0, 0);
+     border-radius: 0;
+   }
+
+   .card:hover img {
+     transform: scale(1.2);
+     transition: transform 0.4s ease;
+   }
+
+   .card .image-zoom {
+     overflow: hidden;
+   }
+
+   .backimg{
+  background-image: url(../src/Assets/about.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
-.boski-pic{
-  
+.banner-img{
+  background-image: url(../src//Assets/banner.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
-.subscription{
+.upper-text{
+  color: white;
+  background-color: black;
   text-align: center;
+  padding: 10px;
 }
-.footer-section{
-  padding-top: 10px;
-  background-color: #EDEBE6;
-  margin-top: 20px;
+
+/* navbar hover */
+.nav-item {
+  position: relative;
 }
-.footer-section li {
-  list-style: none;
-  color: black;
+
+.nav-link {
+  color: black; /* Adjust color as needed */
+  position: relative;
+  transition: color 0.3s ease; /* Transition for color change */
 }
-.footer-section a{
-  color: black;
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 100%; /* Initial position */
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: right 0.3s ease, width 0.3s ease; /* Transition for right position and width */
 }
-.custom-hr {
-  border: 1px solid black; /* Example border style */
+
+.nav-item:hover .nav-link {
+  color:black; /* Change color on hover if needed */
+}
+
+.nav-item:hover::after {
+  right: 0; /* Move to the right edge of the nav-item */
+  width: 100%; /* Expand width on hover */
+}
+.card:hover{
+  color: gray;
 }

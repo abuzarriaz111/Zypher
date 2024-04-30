@@ -97,71 +97,71 @@ export const Newcards=[
     },
     {
         img:elegance,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Elegance",
+        Price:"RS:4500"
 
 
     },
     {
         img:empror,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Empror",
+        Price:"RS:5600"
 
 
     },
     {
         img:Iconic,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Iconic",
+        Price:"RS:5200"
 
 
     },
     {
         img:leaf,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Leaf",
+        Price:"RS:4900"
 
 
     },
     {
         img:moonmist,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Moonmist",
+        Price:"RS:4400"
 
 
     },
     {
         img:opal,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Opal",
+        Price:"RS:5800"
 
 
     },
     {
         img:season,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Season",
+        Price:"RS:5900"
 
 
     },
     {
         img:titan,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Titan",
+        Price:"RS:3000"
 
 
     },
     {
         img:topaz,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Topaz",
+        Price:"RS:5100"
 
 
     },
     {
         img:tradition,
-        name:"Desire",
-        Price:"RS:5000"
+        name:"Tradition",
+        Price:"RS:5300"
 
 
     },
